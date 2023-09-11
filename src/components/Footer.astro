@@ -1,6 +1,6 @@
 ---
-import { ROUTES, SOCIAL, PERSONAL_INFO } from '../consts';
-import { Icon } from 'astro-icon';
+import { ROUTES, PERSONAL_INFO } from '../consts';
+// import { Icon } from 'astro-icon';
 
 const year = new Date().getFullYear();
 ---
@@ -8,7 +8,7 @@ const year = new Date().getFullYear();
 <footer>
   <div class="flex flex-col items-center mt-12 gap-4 mb-4">
     <div class="flex gap-4">
-      {
+      <!-- {
         SOCIAL.map((social) => (
           <a href={social.href} target="_blank">
             <Icon
@@ -21,7 +21,7 @@ const year = new Date().getFullYear();
             />
           </a>
         ))
-      }
+      } -->
     </div>
 
     <nav
