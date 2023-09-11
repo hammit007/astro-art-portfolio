@@ -29,11 +29,11 @@ export const SOCIAL = [
 ] as const;
 
 export const PERSONAL_INFO = {
-  name: 'Ema Suriano',
-  title: "Ema Suriano's Art",
+  name: 'Hammad Arshad',
+  title: "Hammad Arshad's Art",
   subtitle: 'A collection of my best work in one place',
   role: 'Digital Artist',
-  contact: 'mailto:emanuel.suriano@gmail.com',
+  contact: 'mailto:hammit007@gmail.com',
   avatar:
     'https://cdn.discordapp.com/attachments/1023544104698773564/1049350422290251847/Ema_portrait_of_a_young_man_with_background_of_snow_mountains_i_f1762cd5-f4f3-4107-839c-194dab4dffa7.png',
   about:
