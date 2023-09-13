@@ -14,18 +14,42 @@ export const SOCIAL = [
   {
     label: 'Twitter',
     href: 'https://twitter.com/EmaSuriano',
-    icon: 'mdi:twitter',
+    icon: '/twitter.svg',
+  }
+] as const;
+export const IMAGES = [
+  {
+    label: 'Mountain',
+    href: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-yOiFHXMGUoYXY09D6zBAqFoWCQ-ksxImWra8Z7JjozJpO-FyUVj_GUhlik-yKosyhnEZJiXJRfwLQYJlER_RicZ99_=s1600',
+    size: {
+      width: 500,
+      height: 400
+    }
   },
   {
-    label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/emanuel-suriano/',
-    icon: 'mdi:linkedin',
+    label: 'House',
+    href: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-wSyY7DTIdNzL5-zK9VLgvQCEJF44UacF1OB3Tc0KL0G3d6c3os_6_lB9Srtf5SuKa-k6wO5jg1zFAx1vgc02fDpbPGHw=s1600',
+    size: {
+      width: 500,
+      height: 400
+    }
   },
   {
-    label: 'Website',
-    href: 'https://emasuriano.com',
-    icon: 'mdi:web',
+    label: 'Twitter',
+    href: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-xsHmEK7oIL2Bo0J4qoXJuWVztRswsbEfSlyK4PGo91WpzZgfGSV_isGOohRgXZCm8Fkt8-81hnt_RUKvfwzXMn83_D-A=s1600',
+    size: {
+      width: 500,
+      height: 100
+    }
   },
+  {
+    label: 'Twitter',
+    href: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-yksZz2ppa-9SGvUeUmL9oeX9NinGaaOqWT4N6QdfPcdOsY8GNoN0A8EEMD_HKtX5lXyeSgMjGqsDhfwvqSSwgiu39n_A=s1600',
+    size: {
+      width: 500,
+      height: 400
+    }
+  }
 ] as const;
 
 export const PERSONAL_INFO = {
@@ -34,10 +58,9 @@ export const PERSONAL_INFO = {
   subtitle: 'A collection of my best work in one place',
   role: 'Digital Artist',
   contact: 'mailto:hammit007@gmail.com',
-  avatar:
-    'https://cdn.discordapp.com/attachments/1023544104698773564/1049350422290251847/Ema_portrait_of_a_young_man_with_background_of_snow_mountains_i_f1762cd5-f4f3-4107-839c-194dab4dffa7.png',
+  avatar: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-zwZ700mPsH7CL5LQvuJeNx5GPrs2BDSOVXQQXYF5AFHvwRJrL_TZtOZb390RoSAWsAmteU_khQ_ZFGjSp0M9PZsDIEvQ=s1600',
   about:
-    'During the day I am Software Engineer, but at night I switched into my Artistic side. Most of my creations are made with Mid Journey (AI generation), and later on improved using Adobe Photoshop.',
+    'During the day I am Lawyer, but at night I switched into my Artistic side. Most of my creations are made with Mid Journey (AI generation), and later on improved using Adobe Photoshop.',
 } as const;
 
 export const SEO_INFO = [
